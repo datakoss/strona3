@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.lead {
+  font-size: 1.5rem;
+  width:100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  width:100%;
+}
+
+.navbar ul li a:hover {
+  color: skyblue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+section#menu 
+{
+  background: url('https://images4.alphacoders.com/123/12338.jpg') no-repeat center center/cover;;
+}
+section#aktualnosci 
+{
+  background: url('https://images6.alphacoders.com/316/316687.jpg') no-repeat center center/cover;;
+}
+section#oferty 
+{
+  background: url('https://a-static.besthdwallpaper.com/niebieski-wzor-siatki-tapeta-3554x1999-16966_53.jpg') no-repeat center center/cover;;
+}
+section#newsletter 
+{
+  background: url('https://lh3.googleusercontent.com/proxy/m3Taq7ZW0G46U8GCyYD_tX8kM-uk-EYRWD92RP_oBrVInRHTgwaCRDwYUVdFfqmDKBUcENwo4-pRESaU7rX99H0d4bpgIrI1kXuz-dEvUdreCaZgjdNFQOnKlf-ohXZ_xWeGi5HZRdUrQ1AViDmFDAj2g9O0GUyN0CmaStI0zbhEfw') no-repeat center center/cover;;
+}
+section#kontakt 
+{
+  background: url('https://images3.alphacoders.com/825/thumb-1920-82549.jpg') no-repeat center center/cover;;
+}
+.square
+{
+	width: 50%;
+	float: left;
+}
+.tile1
+{
+	margin: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #2084c2;
+}
+
+.tile2
+{
+	margin: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #666666;
+	float: left;
+	text-align: center;
+}
+
+.tile2:hover
+{
+	background-color: #555555;
+}
+
+.tile3
+{
+	margin: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #93c748;
+	float: left;
+	text-align: center;
+}
+
+.tile3:hover
+{
+	background-color: #82b637;
+}
+
+.tile4
+{
+	margin: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #ee5a32;
+	float: left;
+	text-align: center;
+}
+.tile4:hover
+{
+	background-color: #e94e23;
+}
