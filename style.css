@@ -245,9 +245,11 @@ section#kontakt
 	float: right;
 	text-align: center;
 }
-.kolumna {
+.kolumna 
+{
+  background-color: rgb(33, 70, 138);
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding: 15px;
 }
 .row:after {
