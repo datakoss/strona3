@@ -90,7 +90,7 @@ section#oferty
 }
 section#newsletter 
 {
-  background: url('https://lh3.googleusercontent.com/proxy/m3Taq7ZW0G46U8GCyYD_tX8kM-uk-EYRWD92RP_oBrVInRHTgwaCRDwYUVdFfqmDKBUcENwo4-pRESaU7rX99H0d4bpgIrI1kXuz-dEvUdreCaZgjdNFQOnKlf-ohXZ_xWeGi5HZRdUrQ1AViDmFDAj2g9O0GUyN0CmaStI0zbhEfw') no-repeat center center/cover;;
+  background: url('https://fotoomnia.com/zdjecia/thu/16bc01709f86b2bd468952ddf72c630a.jpg') no-repeat center center/cover;;
 }
 section#kontakt 
 {
@@ -98,64 +98,160 @@ section#kontakt
 }
 .square
 {
-	width: 50%;
+  padding: 15px;
+	width: 46%;
 	float: left;
 }
 .tile1
 {
 	margin: 10px;
 	width: 100%;
-	height: 100%;
-	background-color: #3095d3;
+	height: 200px;
+	background:url('https://www.komputronikgaming.pl/wp-content/uploads/2021/01/co-to-jest-discord-768x432.png')no-repeat center center/cover;
 	float: left;
 	text-align: center;
 }
 
 .tile1:hover
 {
-	background-color: #2084c2;
+	background:url('https://www.androidpolice.com/wp-content/uploads/2021/05/14/discord-new-logo.png')no-repeat center center/cover;
 }
 
 .tile2
 {
 	margin: 10px;
 	width: 100%;
-	height: 100%;
-	background-color: #666666;
+	height: 200px;
+	background:url('https://www.komputronikgaming.pl/wp-content/uploads/2021/01/co-to-jest-discord-768x432.png')no-repeat center center/cover;
 	float: left;
 	text-align: center;
 }
 
 .tile2:hover
 {
-	background-color: #555555;
+	background:url('https://www.androidpolice.com/wp-content/uploads/2021/05/14/discord-new-logo.png')no-repeat center center/cover;
 }
 
 .tile3
 {
 	margin: 10px;
 	width: 100%;
-	height: 100%;
-	background-color: #93c748;
+	height: 200px;
+	background:url('https://www.komputronikgaming.pl/wp-content/uploads/2021/01/co-to-jest-discord-768x432.png')no-repeat center center/cover;
 	float: left;
 	text-align: center;
 }
 
 .tile3:hover
 {
-	background-color: #82b637;
+	background:url('https://www.androidpolice.com/wp-content/uploads/2021/05/14/discord-new-logo.png')no-repeat center center/cover;
+}
+
+.square1
+{
+  padding: 15px;
+	width: 46%;
+	float: right;
 }
 
 .tile4
 {
 	margin: 10px;
 	width: 100%;
-	height: 100%;
-	background-color: #ee5a32;
+	height: 200px;
+	background:url('https://www.komputronikgaming.pl/wp-content/uploads/2021/01/co-to-jest-discord-768x432.png')no-repeat center center/cover;
 	float: left;
 	text-align: center;
 }
 .tile4:hover
 {
-	background-color: #e94e23;
+	background:url('https://www.androidpolice.com/wp-content/uploads/2021/05/14/discord-new-logo.png')no-repeat center center/cover;
+}
+
+.tile5
+{
+	margin: 10px;
+	width: 100%;
+	height: 200px;
+  background:url('https://www.komputronikgaming.pl/wp-content/uploads/2021/01/co-to-jest-discord-768x432.png')no-repeat center center/cover;
+	float: left;
+	text-align: center;
+}
+
+.tile5:hover
+{
+	background:url('https://www.androidpolice.com/wp-content/uploads/2021/05/14/discord-new-logo.png')no-repeat center center/cover;
+}
+
+.tile6
+{
+	margin: 10px;
+	width: 100%;
+	height: 200px;
+	background:url('https://www.komputronikgaming.pl/wp-content/uploads/2021/01/co-to-jest-discord-768x432.png')no-repeat center center/cover;
+	float: left;
+	text-align: center;
+}
+
+.tile6:hover
+{
+  background:url('https://www.androidpolice.com/wp-content/uploads/2021/05/14/discord-new-logo.png')no-repeat center center/cover;
+}
+.square2
+{
+  padding: 15px;
+	width: 46%;
+	float: left;
+}
+.tile7
+{
+	margin: 10px;
+	width: 100%;
+	height: 400px;
+	background:url('https://miro.medium.com/max/5000/1*PyM5eBfN3YXjuZzKgyRa_g.png')no-repeat center center/cover;
+	float: left;
+	text-align: center;
+}
+.tile8
+{
+	margin: 10px;
+	width: 100%;
+	height: 400px;
+	background-color:rgb(0, 89, 255);
+	float: left;
+	text-align: center;
+}
+.square3
+{
+  padding: 15px;
+	width: 46%;
+	float: left;
+}
+.tile9
+{
+	margin: 10px;
+	width: 100%;
+	height: 400px;
+	background:url('https://miro.medium.com/max/3200/0*nZQIpXVa9dfggQ12')no-repeat center center/cover;
+	float: right;
+	text-align: center;
+}
+.tile10
+{
+	margin: 10px;
+	width: 100%;
+	height: 400px;
+  background-color:rgb(0, 89, 255);
+	float: right;
+	text-align: center;
+}
+.kolumna {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
